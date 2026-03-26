@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OncoScan - AI-powered breast cancer detection. Analyze mammography scans with exceptional accuracy.">
+    <title>OncoScan - AI Breast Cancer Detection</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =========================
+     Navigation Bar
+========================= -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+            <span>OncoScan</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <a href="#" class="btn-login">Log In</a>
+            <a href="http://localhost:8501" class="btn-primary">Get Started</a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- =========================
+     Hero Section
+========================= -->
+<section class="hero">
+    <div class="hero-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="floating-dot dot-1"></div>
+        <div class="floating-dot dot-2"></div>
+        <div class="floating-dot dot-3"></div>
+    </div>
+
+    <div class="hero-container">
+        <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="badge-icon">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>AI-Powered Early Detection</span>
+        </div>
+
+        <h1 class="hero-title">
+            Detect Breast Cancer
+            <span class="highlight-teal">Earlier</span>,<br>
+            Save Lives <span class="highlight-coral">Together</span>
+        </h1>
+
+        <p class="hero-description">
+            Our advanced AI analyzes mammography scans with exceptional accuracy,
+            helping healthcare professionals identify tumors at their earliest,
+            most treatable stages.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="http://localhost:8501" class="btn-primary btn-large">
+                Start Analysis
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+            <a href="#features" class="btn-outline btn-large">Learn More</a>
+        </div>
+
+        <div class="trust-badges">
+            <div class="badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="trust-icon">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+                <span>HIPAA Compliant</span>
+            </div>
+            <div class="badge-divider"></div>
+            <div class="badge">
+                <span class="stat-number">98.5%</span>
+                <span>Detection Accuracy</span>
+            </div>
+            <div class="badge-divider"></div>
+            <div class="badge">
+                <span>Trusted by <strong>500+</strong> Clinics</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+     Features Section
+========================= -->
+<section id="features" class="features">
+    <div class="section-container">
+        <span class="section-tag">FEATURES</span>
+        <h2 class="section-title">Advanced Detection,<br>Simplified Workflow</h2>
+        <p class="section-description">
+            Empowering healthcare professionals with cutting-edge tools.
+        </p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>AI-Powered Analysis</h3>
+                <p>Machine learning models trained on medical datasets for accurate tumor classification.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Rapid Results</h3>
+                <p>Receive predictions in seconds, enabling faster clinical decisions.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎯</div>
+                <h3>High Precision</h3>
+                <p>Industry-leading accuracy in benign vs malignant classification.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+     How It Works
+========================= -->
+<section id="how-it-works" class="process">
+    <div class="section-container">
+        <span class="section-tag">PROCESS</span>
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-description">
+            From input to diagnosis in four simple steps.
+        </p>
+
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-circle">📤<span class="step-number">01</span></div>
+                <h4>Input Data</h4>
+                <p>Upload medical data or enter tumor features.</p>
+            </div>
+
+            <div class="process-step">
+                <div class="step-circle">🤖<span class="step-number">02</span></div>
+                <h4>AI Analysis</h4>
+                <p>The ML model analyzes patterns and features.</p>
+            </div>
+
+            <div class="process-step">
+                <div class="step-circle">📊<span class="step-number">03</span></div>
+                <h4>Prediction</h4>
+                <p>Benign or malignant classification with confidence.</p>
+            </div>
+
+            <div class="process-step">
+                <div class="step-circle">🩺<span class="step-number">04</span></div>
+                <h4>Decision Support</h4>
+                <p>Assist clinicians with reliable AI insights.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================
+     About Section
+========================= -->
+<section id="about" class="about">
+    <div class="section-container">
+        <span class="section-tag">ABOUT</span>
+        <h2 class="section-title">Advancing Healthcare with AI</h2>
+        <p class="about-text">
+            OncoScan is an academic AI project focused on early breast cancer detection,
+            combining machine learning, medical imaging, and modern web technologies.
+        </p>
+
+        <a href="http://localhost:8501" class="btn-primary btn-large">
+            Try OncoScan
+        </a>
+    </div>
+</section>
+
+<!-- =========================
+     Footer
+========================= -->
+<footer class="footer">
+    <div class="footer-bottom">
+        <p>© 2024 OncoScan — AI Breast Cancer Detection</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
