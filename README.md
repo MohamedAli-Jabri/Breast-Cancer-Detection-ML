@@ -105,20 +105,7 @@ Fonctionnalités :
 - Pandas
 - NumPy
 
----
 
-## Avertissement
-Ce projet est destiné à un usage académique et pédagogique uniquement.
-Il ne remplace en aucun cas un diagnostic médical professionnel.
-
----
-
-## Auteurs
-- Mohamed Ali Jabri 
-- Feryel Ifaoui  
-- Mohamed Khalil Kamessi   
-- Najeh Benrebeh  
-- Ines Ben Dhifallah  
 
 Année universitaire : 2025 – 2026
 
